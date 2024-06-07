@@ -1,0 +1,12 @@
+.fontTitle {
+    
+}
+
+.imgTitle {
+    background-image: url('../../assets/LogoText.svg');
+    background-size: cover;
+    background-position: center;
+    width: 7.5rem;
+    height: 1.3rem;
+}
+

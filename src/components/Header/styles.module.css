@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(32, 32, 32);
+  height: 10vh;
+}
+
+.logoHeader {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem 0 1rem;
+
+}
+
+.logoHeader > img {
+  background-color: transparent;
+  border: 1px solid transparent;
+  height: 32px;
+  width: 32px;
+
+}
+
+.buttonsHeader {
+  display: flex;
+  width: auto;
+  margin-left: auto;
+}

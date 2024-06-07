@@ -1,0 +1,66 @@
+.sectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5f5f5;
+    height: 300px;
+    width: auto;
+}
+
+.sectionCardGrid {
+    display: flex;
+    justify-content: center;
+    background-color: #8e8e8e;
+    width: auto;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.sectionCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    height: auto;
+    width: 280px;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.sectionCardImg {
+    display: flex;
+    align-items: end;
+    background-color: #f5f5f5;
+    margin: 1rem;
+    height: 160px;
+    width: 240px;
+    border-radius: 5px;
+}
+
+.sectionCardTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: #E1FF27;
+    margin: 0.5rem;
+}
+
+.sectionCardVerse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background-color: #E1FF27;
+    height: 30px;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    transition: 0.5s;
+}
+
+.sectionCardVerse:hover {
+    background-color: #f5f5f5;
+    color: #333333;
+    cursor: pointer;
+    text-decoration: underline;
+}

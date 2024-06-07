@@ -1,0 +1,81 @@
+button {
+    border: none;
+    border-radius: 5px;
+    margin: 8px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #E1FF27;
+    color: #333333;
+}
+
+.divButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.bHeader1 {
+    background-image: url('../../assets/M1-Icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    height: 100%;
+    width: 34px;
+    background-color: transparent;
+    padding: 1rem;
+    border: 4px solid transparent;
+
+}
+
+.bHeader1:hover {
+    background-color: #333333;
+    border: 4px solid #333333;
+}
+.bHeader2 {
+    background-image: url('../../assets/M2-Icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    height: 100%;
+    width: 34px;
+    background-color: transparent;
+    padding: 1rem;
+    border: 4px solid transparent;
+}
+
+.bHeader2:hover {
+    background-color: #333333;
+    border: 4px solid #333333;
+}
+.bHeader3Icon {
+    background-image: url('../../assets/Wpp.svg');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.bHeader3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 32px;
+    padding: 1rem;
+    background-color: #00AD47;
+    gap: 8px;
+    border: 4px solid #00AD47;
+}
+
+.bHeader3:hover {
+    background-color: #333333;
+    border: 4px solid #333333;
+    color: white;
+}
