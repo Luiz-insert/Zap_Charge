@@ -16,8 +16,8 @@ export default function CarouselSection() {
     <div className="box">
       <Carousel useKeyboardArrows={true} showStatus={false} showArrows={true} showThumbs= {false}>
         {images.map((URL, index) => (
-          <div className="slide">
-            <img alt="sample_file" src={URL} key={index} style={{height: "70vh", width: "100%", objectFit: "cover", position: "center"}}/>
+          <div>
+            <img  alt="sample_file" src={URL} key={index} style={{height: "70vh", width: "100%", objectFit: "cover", position: "center", backgroundColor: "#333333"}}/>
           </div>
         ))}
       </Carousel>
