@@ -13,7 +13,6 @@ export default function Button () {
       <button className={styles.bHeader2} type="button"></button>
       <button className={styles.bHeader3} type="button">
         <div className={styles.bHeader3Icon}></div>
-        <p>Contate-nos</p>
       </button>
     </div>
     

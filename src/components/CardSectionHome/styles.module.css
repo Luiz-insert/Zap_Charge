@@ -1,20 +1,55 @@
+.glossaryIcon {
+    display: flex;
+    width: 60px;;
+    height: 60px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #E1FF27;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;    
+    color: #242424;
+    text-decoration: none;  
+
+}
+
+.glossaryImg {
+    object-fit: cover;
+
+    height: 40px;
+}
+.glossaryIcon:hover {
+    cursor: pointer;
+    border: 1px solid #f5f5f5;
+}
+
 .sectionContainer {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    background-color: #f5f5f5;
-    height: 300px;
+    background-color: #242424;
+    height: auto;
     width: auto;
 }
 
 .sectionCardGrid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    background-color: #8e8e8e;
+    background-color: #242424;
     width: auto;
-    border-radius: 5px;
-    margin: 1rem;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .sectionCard {
@@ -25,14 +60,20 @@
     background-color: #333333;
     height: auto;
     width: 280px;
-    margin: 1rem;
-    border-radius: 5px;
+    border-radius: 2px;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+.sectionCard:hover {
+    background-color: #242424;
+    cursor: pointer;
+    border: 1px solid white;
 }
 
 .sectionCardImg {
     display: flex;
-    align-items: end;
-    background-color: #f5f5f5;
+    object-fit: contain;
     margin: 1rem;
     height: 160px;
     width: 240px;
@@ -41,26 +82,27 @@
 
 .sectionCardTitle {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
-    color: #E1FF27;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: #f5f5f5;
     margin: 0.5rem;
 }
 
 .sectionCardVerse {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: monospace;
-    background-color: #E1FF27;
-    height: 30px;
-    width: 100%;
-    border-radius: 0 0 5px 5px;
+    background-color: #333333;
+    height: auto;
+    width: 280px;
+    border-radius: 2px;
     transition: 0.5s;
+    border: 1px solid transparent;
 }
 
 .sectionCardVerse:hover {
-    background-color: #f5f5f5;
-    color: #333333;
+    background-color: #242424;
     cursor: pointer;
-    text-decoration: underline;
+    border: 1px solid white;
 }

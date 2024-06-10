@@ -1,8 +1,11 @@
 .header {
   display: flex;
+  position: sticky;
+  top: 0;
   align-items: center;
   background-color: rgb(32, 32, 32);
   height: 10vh;
+  z-index: 1000;
 }
 
 .logoHeader {

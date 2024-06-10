@@ -1,0 +1,37 @@
+.footerContainer 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace;
+    height: 20vh;
+    width: 100%;
+    background-color: #E1FF27;
+    margin-top: 1rem;
+}
+
+.groupFooterIcon {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 30px;
+}
+
+.footerIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30px;
+    background-color: black;
+}
+
+.footerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}

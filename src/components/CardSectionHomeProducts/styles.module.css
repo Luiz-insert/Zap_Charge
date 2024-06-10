@@ -1,0 +1,202 @@
+.bannerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #E1FF27;
+    padding: 1rem;
+    background-color: #002ca7;
+    text-transform: uppercase;
+  }
+.section01 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #002ca7;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.groupCardProduct {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.section02 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.cardProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: #333333 0px 0 5px 0;
+    background-color: white;
+    padding: 1rem;
+}
+
+/*IMG*/
+.cardProductImage {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardProductTitle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: #333333;
+    width: 100%;
+    height: 100%;
+}
+
+.cardProductPrice {
+    display: flex;
+    font-family: 'roboto', sans-serif;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: #002ca7;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.cardProductMkt {
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto', sans-serif;
+    background-color: #15922a;
+    color: white;
+    padding: 0.5rem;
+    width: 100%;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.cardProductMkt:hover {
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*banner*/
+.infoCardBanner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    gap: 1rem;
+}
+.infoCardImg {
+    background-color: #E1FF27;
+    border-radius: 0 100% 0 0;
+    width: 280px
+}
+.infoCardDescription {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 280px;
+
+}
+
+.infoCardTitle {
+    background-color: white;
+    color: #333333;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 5px double #002ca7;
+}
+
+.infoCardSubTitle {
+    background-color: white;
+    color: #002ca7;
+    font-size: 0.8rem;
+    font-family: 'roboto', sans-serif;
+    padding: 1rem;
+    text-align: left;
+}
+
+.infoCardBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002ca7;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 100%;
+    transition: 0.2s;
+    border-radius: 5px;
+    width: 180px;
+}
+.infoCardBtn:hover {
+    background-color: #333333;
+    cursor: pointer;
+}
+
+/*deliveryCard*/
+
+.infoCardDescription2 {
+    background-color: white;
+    border: 1px solid #002ca7;
+    display: flex;
+    height: 80px;
+    margin: auto;
+    
+}
+
+.deliveryCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #E1FF27;
+    padding: 1rem;
+    color: #333333;
+    font-family: 'roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.van {
+    width: 80px;
+
+}

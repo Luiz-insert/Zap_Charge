@@ -1,9 +1,9 @@
-import Header from "./components/Header"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Loading from "./components/Loading"
-import Button from "./components/Button"
-import Title from "./components/Title"
-import Main from "./components/Main"
 import React, { useState, useEffect } from 'react';
+import Concat from "./concat"
+import About from "./components/Product01"
+import Product01 from "./components/Product01";
 
 function App () {
 
@@ -16,7 +16,7 @@ function App () {
     // para exibir o conteúdo real
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 2000);
   }, []);
 
   return (
@@ -29,9 +29,15 @@ function App () {
       ) : (
         // Se o conteúdo estiver carregado, exibe o conteúdo real
         <div className="app">
-          <Header />
-          <Main />
-        </div>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Concat />} />
+            <Route path="/product01" element={<Product01 />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+
+
       )}
     </div>
   )
