@@ -6,10 +6,12 @@
     justify-content: space-around;
     align-items: center;
     font-family: monospace;
-    height: 20vh;
+    height: auto;
     width: 100%;
     background-color: #E1FF27;
     margin-top: 1rem;
+    padding: 3rem;
+    gap: 1rem;
 }
 
 .groupFooterIcon {
