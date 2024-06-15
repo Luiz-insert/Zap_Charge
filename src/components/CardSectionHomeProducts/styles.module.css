@@ -10,6 +10,18 @@
     background-color: #002ca7;
     text-transform: uppercase;
   }
+.bannerTitle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #002ca7;
+    padding: 1rem;
+    background-color: white;
+    text-transform: uppercase;
+  }
 .section01 {
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +46,10 @@
 .section02 {
     display: flex;
     flex-wrap: wrap;
+
     background-color: white;
+    background-size: cover;
+    background-position: center;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -42,6 +57,19 @@
     padding: 1rem 1rem 1rem 1rem;
 }
 .cardProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: #333333 0px 0 5px 0;
+    background-color: white;
+    padding: 1rem;
+}
+
+.cardProductD {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -86,6 +114,20 @@
 
 }
 
+.cardProductPriceInitial {
+    display: flex;
+    font-family: 'roboto', sans-serif;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: #333333;
+    font-weight: 100;
+    font-size: 0.8rem;
+    text-decoration:line-through;
+    
+}
+
 .cardProductMkt {
     display: flex;
     justify-content: center;
@@ -96,6 +138,24 @@
     width: 100%;
     transition: 0.2s;
     border-radius: 5px;
+}
+
+.cardProductMktD {
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto', sans-serif;
+    background-color: #8627FF;
+    color: white;
+    padding: 0.5rem;
+    width: 100%;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.cardProductMktD:hover {
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
 }
 
 .cardProductMkt:hover {
@@ -109,10 +169,9 @@
 .infoCardBanner {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content:space-between;
     width: 100%;
-    background-color: white;
-    gap: 1rem;
+    background-color: #E1FF27;
 }
 .infoCardImg {
     background-color: #E1FF27;
@@ -120,16 +179,19 @@
     width: 280px
 }
 .infoCardDescription {
-    background-color: white;
+    background-color: #E1FF27;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 280px;
 
 }
-
+.infoGroup {
+    display: flex;
+    flex-wrap: wrap;
+}
 .infoCardTitle {
-    background-color: white;
+    background-color: #E1FF27;
     color: #333333;
     font-family: 'roboto', sans-serif;
     font-size: 1.5rem;
@@ -137,12 +199,12 @@
     padding: 1rem;
     text-transform: uppercase;
     text-align: center;
-    border-bottom: 5px double #002ca7;
+    border-bottom: 5px double #333333;
 }
 
 .infoCardSubTitle {
-    background-color: white;
-    color: #002ca7;
+    background-color: #E1FF27;
+    color: #333333;
     font-size: 0.8rem;
     font-family: 'roboto', sans-serif;
     padding: 1rem;
@@ -153,32 +215,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #002ca7;
-    color: white;
+    color: #333333;
     font-family: 'roboto', sans-serif;
+    border: 1px solid #333333;
     font-size: 1rem;
     font-weight: bold;
     padding: 0.5rem;
     margin: 1rem;
     width: 100%;
     transition: 0.2s;
-    border-radius: 5px;
     width: 180px;
 }
 .infoCardBtn:hover {
     background-color: #333333;
+    color: #E1FF27;
     cursor: pointer;
 }
 
 /*deliveryCard*/
 
-.infoCardDescription2 {
+.infoCardDescription2, .infoCardDescription3, .infoCardDescription4, .infoCardDescription5 {
     background-color: white;
-    border: 1px solid #002ca7;
     display: flex;
     height: 80px;
-    margin: auto;
-    
+    width: 100%;
+    margin: right;
 }
 
 .deliveryCard {
@@ -200,3 +261,102 @@
     width: 80px;
 
 }
+
+.destaqueOff {
+    background-image: url('/src/assets/audi2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #333333;
+    background-position: center;
+    height: 450px;
+    z-index: 0;
+    /*
+    border-top: 8px dashed #8627FF;
+    border-bottom: 8px dashed #8627FF;
+    */
+}
+.destaqueOff2 {
+    background-image: url('/src/assets/audi3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #333333;
+    background-position: center;
+    height: 450px;
+    z-index: 0;
+    /*
+    border-top: 8px dashed #8627FF;
+    border-bottom: 8px dashed #8627FF;
+    */
+}
+
+.bannerTitle3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    padding: 1rem;
+    background-color: #8627FF;
+    text-transform: uppercase;
+  }
+
+  .bannerTitle31 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #8627FF;
+    padding: 1rem;
+    background-color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .section03 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.sectionDestaque {
+    background-color: white;
+    border: 4px double #8627FF;
+    border-top: 0;
+}
+
+.rStation {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.bannerTitle4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    padding: 1rem;
+    background-color: #333333;
+    text-transform: uppercase;
+    border-bottom: 4px double white;
+  }
+
+  .bb {
+    object-fit: contain;
+    height: 480px;
+    width: 100%;
+    padding: 1rem;
+  }

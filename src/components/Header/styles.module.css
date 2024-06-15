@@ -3,7 +3,7 @@
   position: sticky;
   top: 0;
   align-items: center;
-  background-color: rgb(32, 32, 32);
+  background-color: #222222e3;
   height: 10vh;
   z-index: 1000;
 }
@@ -11,6 +11,7 @@
 .logoHeader {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 0 1rem 0 1rem;
 
 }

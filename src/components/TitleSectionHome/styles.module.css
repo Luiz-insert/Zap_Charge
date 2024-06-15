@@ -18,8 +18,8 @@ span {
 	font: 700 4em "Oswald", sans-serif;
 	letter-spacing: 0;
 	padding: .25em 0 .325em;
-  display: block;
-  margin: 0 auto;
+	display: block;
+	margin: 0 auto;
 	text-shadow: 0 0 80px rgba(255,255,255,.5);
 
 /* Clip Background Image */
@@ -40,17 +40,13 @@ span {
 
 }
 
-.FModels {
-	display: flex;
-	width: 100%;
-}
 .imgModels {
-	border: 1px solid #333333;
+	border: 1px solid transparent;
 	border-left: 0px;
 	border-right: 0px;
-	width: 100%;
+	height: 60px;
+	width: auto;
 	filter:invert(80%);
-	transform: translateX(0%);
 }
 /* Animate Background Image */
 
@@ -58,3 +54,12 @@ span {
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
 }
+
+.FModels {
+	display: flex;
+	width: 100%;
+	background-color: #333333;
+	border-top: #e2ff273b 1px dotted;
+	border-bottom: #e2ff273b 1px dotted;
+}
+

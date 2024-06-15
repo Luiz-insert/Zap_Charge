@@ -4,3 +4,11 @@
 
 .box {
 }
+
+img {
+    cursor: -webkit-grab;
+}
+
+img:active {
+    cursor: -webkit-grabbing;
+}

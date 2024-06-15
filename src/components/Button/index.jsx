@@ -8,11 +8,11 @@ export default function Button () {
   }
   return (
     <div className={styles.divButtons}>
-
-      <button className={styles.bHeader1} type="button"></button>
-      <button className={styles.bHeader2} type="button"></button>
       <button className={styles.bHeader3} type="button">
-        <div className={styles.bHeader3Icon}></div>
+        <div className={styles.bHeader3Icon}>
+          
+        </div>
+        <p>Contate-nos</p>
       </button>
     </div>
     

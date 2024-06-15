@@ -25,18 +25,24 @@ function App () {
         // Se estiver carregando, exibe a tela de loading
         <div>
           <Loading />
+          <div className="app" style={{display:'none'}}>
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={<Concat />} />
+              </Routes>
+            </BrowserRouter>
+          </div>
         </div>
       ) : (
-        // Se o conteúdo estiver carregado, exibe o conteúdo real
+
         <div className="app">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Concat />} />
-            <Route path="/product01" element={<Product01 />} />
           </Routes>
         </BrowserRouter>
       </div>
-
+        // Se o conteúdo estiver carregado, exibe o conteúdo real
 
       )}
     </div>

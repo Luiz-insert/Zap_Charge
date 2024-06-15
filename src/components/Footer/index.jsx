@@ -1,5 +1,8 @@
 import styles from "./styles.module.css";
 import logo from "../../assets/LogoIconSimp.svg";
+import icon1 from "../../assets/ii1.svg";
+import icon2 from "../../assets/ii2.svg";
+import icon3 from "../../assets/ii3.svg";
 
 export default function Footer() {
     return (
@@ -13,9 +16,9 @@ export default function Footer() {
                 <p></p>
             </div>
             <div className= {styles.groupFooterIcon}>
-                <div className={styles.footerIcon}></div>
-                <div className={styles.footerIcon}></div>
-                <div className={styles.footerIcon}></div>
+                <div className={styles.footerIcon}><img src={icon1} className={styles.iImg} alt="" /></div>
+                <div className={styles.footerIcon}><img src={icon2} className={styles.iImg} alt="" /></div>
+                <div className={styles.footerIcon}><img src={icon3} className={styles.iImg} alt="" /></div>
             </div>
         </div>
     )
