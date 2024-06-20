@@ -36,7 +36,7 @@ export default function CarouselSection() {
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCube, EffectCoverflow]}
       autoplay={{
-        delay: 1000000, disableOnInteraction: false,
+        delay: 2500, disableOnInteraction: false,
       }}
       spaceBetween={0}
       slidesPerView={1}
