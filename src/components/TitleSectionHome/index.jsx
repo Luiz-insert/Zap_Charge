@@ -1,8 +1,15 @@
 import styles from "./styles.module.css"
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css/autoplay';
-import 'swiper/css';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay, FreeMode, EffectFlip} from 'swiper/modules';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/effect-flip';
 
 import lg1 from "../../assets/lg1.svg"
 import lg2 from "../../assets/lg2.svg"
@@ -30,9 +37,13 @@ export default function TitleSectionHome () {
                 até 80% off
             </span>
             <Swiper
+            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, FreeMode, EffectFlip]}
             spaceBetween={0}
-            slidesPerView={4}
-            autoplay={{ delay: 1000, disableOnInteraction: false }} // Add autoplay configuration
+            slidesPerView={1}
+            autoplay={{ delay: 2500, disableOnInteraction: false, pauseOnMouseEnter: false}}
+            effect="flip"
+            loop={true}
+            
             className={styles.FModels}>
                 <SwiperSlide><img className={styles.imgModels} src={lg1} alt="" /></SwiperSlide>
                 <SwiperSlide><img className={styles.imgModels} src={lg2} alt="" /></SwiperSlide>

@@ -1,5 +1,13 @@
-import styles from "./styles.module.css"
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow, EffectFade, EffectCards, EffectFlip, EffectCube, FreeMode } from 'swiper/modules';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import styles from "./styles.module.css";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import p1 from "../../assets/p1.svg"
 import p2 from "../../assets/p2.svg"
 import p3 from "../../assets/p3.svg"
@@ -85,10 +93,14 @@ export default function CardSectionHomeProducts() {
             </div>
     <div className={styles.bannerTitle3}>Em destaque 80% OFF</div>
     <Swiper
-    autoplay={{ delay: 1000, disableOnInteraction: false }}
-    spaceBetween={50}
+    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, FreeMode, EffectFlip, EffectFade, EffectCards, EffectCube, EffectCoverflow]}
+    autoplay={{ delay: 2500, disableOnInteraction: false }}
+    pagination={{ clickable: true, dynamicBullets: true, dynamicMainBullets: 1 }}
+    effect='coverflow'
+    coverflowEffect={{ rotate: 10, stretch: 0, depth: 10, modifier: 1, slideShadows: true}}
+    loop={true}
+    spaceBetween={0}
     slidesPerView={1}
-    scrollbar={{ draggable: true, enabled: true}}
     >
         <SwiperSlide>
             <div className={styles.destaqueOff}></div>
