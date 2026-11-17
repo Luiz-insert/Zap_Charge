@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ZapCharge">
+  <rect width="64" height="64" rx="14" fill="#E1FF27"/>
+  <path d="M16 14 H48 L27 31 H39 L16 50 H48" fill="none" stroke="#0C0C0B" stroke-width="8" stroke-linejoin="miter" stroke-linecap="square"/>
+</svg>
